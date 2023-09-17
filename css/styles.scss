@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900);
+* {
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-light-gray-dark {
+    color: hsl(300, 62%, 23%);
+}
+
+.bg-grayish-blue {
+    background:hsl(300, 24%, 96%);
+
+}
+
+.text-grayish-dark-blue {
+    color: hsl(303, 10%, 53%);
+
+
+}
+
+.bg-cyan {
+    background: hsl(300, 43%, 22%);
+}
+
+.text-light-gray {
+    color: hsl(333, 80%, 67%);
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding: 0px;
+    
+}
+
+main {
+    width: 79vw;
+    text-align: center;
+}
+
+
+.intro-section {
+    max-width: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+.rating-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    max-width: 420px;
+}
+
+.rating-card>p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.review-card {
+    padding: 40px 30px 30px 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    text-align: left;
+    max-width: 350px;
+    height: 330px;
+}
+
+.review-card>p {
+    line-height: 2.2rem;
+    font-size: 1.7rem;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+@media only screen and (min-width: 720px) {
+
+    body {
+        height: 100vh;
+    }
+
+    main {
+        margin-left: 100px;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .intro-section>p {
+        line-height: 2.5rem;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .intro-section {
+        text-align: left;
+        margin-bottom: 80px;
+    }
+
+    .ratings {
+        width: 40vw;
+        margin: 0;
+    }
+
+    .rating-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating-card>img {
+        margin-right: 5px;
+    }
+
+    .rating-card>p {
+        margin-left: 10px;
+    }
+
+    .rate-two {
+        margin-left: 50px;
+    }
+
+    .rate-three {
+        margin-left: 100px;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .review-card {
+        margin-right: 30px;
+    }
+
+    .second {
+        margin-top: 15px;
+    }
+
+    .third {
+        margin-top: 30px;
+    }
+}
